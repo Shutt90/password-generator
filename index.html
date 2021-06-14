@@ -4,11 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
     <title>Password Generator</title>
   </head>
   <body>
-    <button id="pgen">Generate</button>
-    <h1 class="textfield">Your password will appear here</h1>
+    <div class="ui one column stackable center aligned page grid ui container">
+        <div class="column twelve wide">
+            <button id="pgen" class="positive ui button">Generate</button>
+            <div class="ui compact message">
+              <p class="textfield">Your password will appear here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <script src="main.js"></script>
   </body>
 </html>
